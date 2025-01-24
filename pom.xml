@@ -158,7 +158,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>${guava.version}</version> <!-- prevent downgrade of Guava version in protobuf-java-util -->
+			<version>${guava.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.grpc</groupId>
@@ -180,11 +180,6 @@
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java</artifactId>
-			<version>${protobuf.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.protobuf</groupId>
-			<artifactId>protobuf-java-util</artifactId>
 			<version>${protobuf.version}</version>
 		</dependency>
 		<dependency>
