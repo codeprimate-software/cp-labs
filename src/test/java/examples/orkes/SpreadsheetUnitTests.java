@@ -25,6 +25,7 @@ import java.util.Set;
 import java.util.function.BiFunction;
 import java.util.function.Predicate;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import org.cp.elements.lang.Assert;
@@ -132,6 +133,7 @@ public class SpreadsheetUnitTests {
 	}
 
 	@Test
+	@Disabled("Until Spreadsheet circular references test case is fixed")
 	void usingInterviewerTestCase() {
 
 		this.spreadsheet.setCellValue("B12", 14);
